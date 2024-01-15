@@ -1,10 +1,4 @@
 
-/**
- * Write a description of class Square here.
- *
- * @author (your name)
- * @version (a version number or a date)
- */
 public class Square extends Rectangle
 {
     private double sideLen;
@@ -18,7 +12,7 @@ public class Square extends Rectangle
     public double getSideLen(){
         return sideLen;
     }
-    
+
     public void setSideLen(double l){
         sideLen=l;
     }

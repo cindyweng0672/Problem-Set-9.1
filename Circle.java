@@ -9,24 +9,17 @@ public class Circle extends Shape
 {
     double radius;
 
-    /**
-     * Constructor for objects of class Circle
-     */
     public Circle(double r, String colour, boolean filled){
         super(colour, filled);
         radius=r;
     }
 
-    /**
-     * An example of a method - replace this comment with your own
-     *
-     * @param  y  a sample parameter for a method
-     * @return    the sum of x and y
-     */
+    @Override
     public double calculateArea(){
         return Math.PI*radius*radius;
     }
     
+    @Override
     public double calculatePerimeter(){
         return Math.PI*2*radius;
     }

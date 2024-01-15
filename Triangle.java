@@ -1,18 +1,10 @@
 import java.util.*;
-/**
- * Write a description of class Triangle here.
- *
- * @author (your name)
- * @version (a version number or a date)
- */
+
 public class Triangle extends Shape
 {
     // instance variables - replace the example below with your own
     protected ArrayList<Double> sides=new ArrayList<Double>();
 
-    /**
-     * Constructor for objects of class Triangle
-     */
     public Triangle(double side1, double side2, double side3, String colour, boolean filled)
     {
         super(colour, filled);
@@ -25,18 +17,14 @@ public class Triangle extends Shape
         super(colour, filled);
     }
 
-    /**
-     * An example of a method - replace this comment with your own
-     *
-     * @param  y  a sample parameter for a method
-     * @return    the sum of x and y
-     */
+    @Override
     public double calculateArea(){
         double n=calculatePerimeter()/2;
         
         return Math.sqrt(n*(n-sides.get(0))*(n-sides.get(1))*(n-sides.get(2)));
     }
     
+    @Override
     public double calculatePerimeter(){
         int p=0;
         

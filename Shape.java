@@ -11,21 +11,12 @@ public class Shape
     private String colour;
     private boolean filled;
     
-    /**
-     * Constructor for objects of class Shape
-     */
     public Shape(String colour, boolean filled)
     {
         this.colour=colour;
         this.filled=filled;
     }
 
-    /**
-     * An example of a method - replace this comment with your own
-     *
-     * @param  y  a sample parameter for a method
-     * @return    the sum of x and y
-     */
     public double calculateArea(){
         return 0;
     }
