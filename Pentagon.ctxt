@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Pentagon
+comment0.text=\n\ Write\ a\ description\ of\ class\ Pentagon\ here.\n\n\ @author\ (your\ name)\n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment1.params=sideLen\ colour\ filled
+comment1.target=Pentagon(double,\ java.lang.String,\ boolean)
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ Pentagon\n
+comment2.params=
+comment2.target=double\ calculateArea()
+comment3.params=
+comment3.target=double\ getSideLen()
+comment4.params=l
+comment4.target=void\ setSideLen(double)
+numComments=5
